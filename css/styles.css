@@ -4013,8 +4013,9 @@ img.u-pull-left {
     margin-bottom : var(--vspace-2);
 }
 
-.s-footer__contact-content .left-block {
-    padding-top : var(--vspace-0_25);
+.s-footer__contact-content .left-block,
+.s-footer__social {
+    padding-bottom: 10px; /* Adjust this value if needed */
 }
 
 .s-footer__contact-content .right-block {
@@ -4023,9 +4024,11 @@ img.u-pull-left {
 
 .s-footer__contact-content {
     display: flex;
-    justify-content: space-between; /* Space between email and social media */
     align-items: center; /* Vertically centers both sections */
-    flex-wrap: wrap; /* Ensures proper spacing on smaller screens */
+    justify-content: center; /* Horizontally centers both sections */
+    text-align: center;
+    flex-direction: column; /* Stack the items if needed */
+    gap: 10px; /* Space between the elements */
 }
 
 .s-footer__bottom {
