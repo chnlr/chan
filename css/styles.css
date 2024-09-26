@@ -4013,9 +4013,25 @@ img.u-pull-left {
     margin-bottom : var(--vspace-2);
 }
 
+/* Adding styles for the unified-block class */
+.s-footer__contact-content.unified-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything */
+    justify-content: center; /* Ensures both email and text are aligned */
+    text-align: center;
+    gap: 10px; /* Adjusts spacing between elements */
+}
+
+.s-footer__contact-content .link-list {
+    margin-bottom: 10px; /* Adds spacing between the list and the text */
+}
+
+/* Override any previous block-specific padding or margins */
 .s-footer__contact-content .left-block,
 .s-footer__social {
-    padding-bottom: 0px; /* Adjust this value if needed */
+    padding-bottom: 0;
+    margin-left: 0;
 }
 
 .s-footer__contact-content .right-block {
