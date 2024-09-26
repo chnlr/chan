@@ -4021,6 +4021,13 @@ img.u-pull-left {
     margin-left : 15%;
 }
 
+.s-footer__contact-content {
+    display: flex;
+    justify-content: space-between; /* Space between email and social media */
+    align-items: center; /* Vertically centers both sections */
+    flex-wrap: wrap; /* Ensures proper spacing on smaller screens */
+}
+
 .s-footer__bottom {
     padding-top : var(--vspace-1_25);
     font-size   : var(--text-sm);
