@@ -4015,7 +4015,7 @@ img.u-pull-left {
 
 .s-footer__contact-content .left-block,
 .s-footer__social {
-    padding-bottom: 10px; /* Adjust this value if needed */
+    padding-bottom: 0px; /* Adjust this value if needed */
 }
 
 .s-footer__contact-content .right-block {
