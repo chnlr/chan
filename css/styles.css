@@ -4022,15 +4022,6 @@ img.u-pull-left {
     margin-left : 15%;
 }
 
-.s-footer__contact-content {
-    display: flex;
-    align-items: center; /* Vertically centers both sections */
-    justify-content: center; /* Horizontally centers both sections */
-    text-align: center;
-    flex-direction: column; /* Stack the items if needed */
-    gap: 10px; /* Space between the elements */
-}
-
 .s-footer__bottom {
     padding-top : var(--vspace-1_25);
     font-size   : var(--text-sm);
